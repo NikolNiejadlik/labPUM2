@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AplikacjaPogodowa2</string>
+    <string name="wybierz">Wybierz</string>
+    <string name="zabrze">Zabrze</string>
+    <string name="todo">TODO</string>
+    <string name="_30_stopni_celcjusza">30 stopni celcjusza</string>
+    <string name="pami_taj_o_filtrze">Pamiętaj o filtrze</string>
+    <string name="podaj_miejsce">Podaj miejsce</string>
+    <string name="zmien_miejsce">ZMIEN MIEJSCE</string>
+    <string name="pokaz_liste_dostepnych_miejsc">POKAZ LISTE DOSTEPNYCH MIEJSC</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/holo_blue_light"
+android:gravity="center"
+android:orientation="vertical"
+tools:context="com.example.nicol.aplikacjapogodowa2.MainActivity">
+
+<TextView
+    android:id="@+id/zabrze"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:text="@string/zabrze"
+    android:textColor="@android:color/white"
+    android:textSize="25sp" />
+
+<ImageView
+
+    android:id="@+id/zdjecie"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5dp"
+    android:contentDescription="@string/todo" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:text="@string/_30_stopni_celcjusza"
+    android:textColor="@android:color/white"
+    android:textSize="20sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:text="@string/pami_taj_o_filtrze"
+    android:textColor="@android:color/white"
+    android:textSize="20sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:text="@string/podaj_miejsce"
+    android:textColor="@android:color/white"
+    android:textSize="20sp" />
+
+<EditText
+    android:id="@+id/edittext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:inputType="text"
+    tools:ignore="LabelFor" />
+
+<Button
+    android:id="@+id/zmienmiejsce"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white"
+
+    android:text="@string/zmien_miejsce"
+    android:textColor="@android:color/holo_blue_light" />
+
+<Button
+    android:id="@+id/listamiejsc"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+
+    android:text="@string/pokaz_liste_dostepnych_miejsc"
+    android:textColor="@android:color/holo_blue_light" />
+
+</LinearLayout>
+
+
